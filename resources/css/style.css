@@ -1,0 +1,54 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  margin-top: 0;
+}
+header {
+  height: 69px;
+  width: 100%;
+  /* border: 1px solid white; */
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+
+.logo {
+  /* border: 3px solid lightblue; */
+}
+.logo img{
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+}
+
+#flex {
+    display: flex;
+}
+nav {
+  /* border: 3px solid lightblue; */
+  width: 400px;
+  justify-content: space-around;
+}
+nav a{
+  text-decoration: underline;
+  color: seashell;
+}
+nav span {
+  /* border: 1px solid red; */
+  display:inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+.main {
+  padding-top: 69px;
+}
