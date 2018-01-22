@@ -48,13 +48,12 @@ nav span {
 }
 .hero {
     /* border: 1px solid white; */
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-image: url(../images/img-mission-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 70px;
 }
 .mission {
     /* border: 5px solid green; */
@@ -75,6 +74,7 @@ h2, h4 {
   width:1068px;
   height: auto;
   margin: auto;
+  padding-top: 70px;
 }
 .teas {
     /* border: 3px dashed green; */
@@ -89,4 +89,48 @@ h2, h4 {
 .tea_container img {
   width: 300px;
   height: 200px;
+}
+.locations {
+      /* border: 2px solid green; */
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 90px;
+  flex-direction: column;
+  align-items: center;
+}
+.location_heading {
+    /* border: 2px solid lightblue; */
+  text-align: center;
+  background-color: transparent;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+
+}
+.location_boxes {
+      /* border: 2px solid yellow; */
+  justify-content: space-between;
+  width: 980px;
+}
+.location {
+      /* border: 2px solid red; */
+  width: 300px;
+  text-align: center;
+  background-color: black;
+}
+.location p {
+  padding-top: 15px;
+}
+.contact {
+    /* border: 2px solid red; */
+  text-align: center;
+  height: 200px;
+}
+footer {
+    /* border: 2px solid green; */
+  text-align: left;
+  margin-left: 20px;
 }
