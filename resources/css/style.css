@@ -16,8 +16,6 @@ header {
   justify-content: space-between;
   background-color: black;
 }
-
-
 .logo {
   /* border: 3px solid lightblue; */
 }
@@ -27,8 +25,7 @@ header {
   margin-top: 10px;
   /* border: 1px solid red; */
 }
-
-#flex {
+.flex {
     display: flex;
 }
 nav {
@@ -46,9 +43,31 @@ nav span {
   align-items: center;
   justify-content: space-around;
 }
-
-
-
 .main {
-  padding-top: 69px;
+  padding-top: 70px;
+}
+
+
+.hero {
+    border: 1px solid white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+.mission {
+    border: 5px solid green;
+  width: 1200px;
+  height: 500px; /* change this size to get exact snap-to i want from nav button; */
+  flex-direction: column;
+  justify-content: center;
+}
+h2, h4 {
+    border: 1px solid red;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  margin: 0px;
 }
